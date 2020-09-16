@@ -17,7 +17,8 @@ const IndexPage = () => (
         </span>
       </Font>
       <Font fontWeight={800} fontSize={20} textAlign="center">
-        Reaction UI comes with a set of components built with styled-components <br /> that are accessible, responsive and customisable.
+        Reaction UI comes with a set of components built with styled-components <br />
+        <center>that are accessible, responsive and customisable.</center>
       </Font>
       <Logo width={600} />
       <Link to="/getting-started" className="link">

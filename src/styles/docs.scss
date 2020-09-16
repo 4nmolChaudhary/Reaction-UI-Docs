@@ -9,9 +9,76 @@
   .navigation-section {
     width: 30%;
     height: 100%;
+    padding-top: 10%;
+    .link-div {
+      @include displayFlex(column, center, flex-start);
+      .main-class {
+        @include resetLinks();
+        font-family: "Gilroy-Extrabold";
+      }
+      .type {
+        @include resetLinks();
+        margin-left: 15px;
+      }
+      .sub-types {
+        @include resetLinks();
+        margin-left: 30px;
+      }
+      .main-class:active {
+        color: $primaryColor;
+        background: $pinkTint;
+      }
+    }
   }
   .docs-section {
     width: 70%;
     height: 100%;
+    padding-top: 10%;
+    #gettingStarted {
+      @include titleStyle();
+      h3 {
+        margin: 15px 0;
+      }
+      .install {
+        color: #fff;
+        background: #282c34;
+        font-family: "Ligconsolata";
+        font-size: 17px;
+        font-weight: 400;
+        padding: 24px;
+        border-radius: 4px;
+        margin-bottom: 100px;
+      }
+    }
+    #components,
+    #buttons {
+      @include titleStyle();
+      .install {
+        color: #fff;
+        background: #282c34;
+        font-family: "Ligconsolata";
+        font-size: 17px;
+        font-weight: 400;
+        padding: 24px;
+        border-radius: 4px;
+        margin-bottom: 100px;
+      }
+      h3 {
+        font-family: "Gilroy-Extrabold";
+        font-size: 26px;
+      }
+      p {
+        margin-bottom: 35px;
+      }
+      .props-table {
+        margin-top: 30px;
+        h1 {
+          font-family: "Gilroy-Light";
+          font-weight: 800;
+          font-size: 24px;
+        }
+        @include table();
+      }
+    }
   }
 }

@@ -1,0 +1,192 @@
+.code-block div code,
+.code-block div pre {
+  color: #fff !important;
+  background: #282c34 !important;
+  font-family: "Ligconsolata" !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}
+
+.code-block div code ::-moz-selection,
+.code-block div pre ::-moz-selection,
+.code-block div code ::-moz-selection,
+.code-block div pre ::-moz-selection {
+  background: #363636 !important;
+}
+
+.code-block div code ::selection,
+.code-block div pre ::selection,
+.code-block div code ::selection,
+.code-block div pre ::selection {
+  background: #363636 !important;
+}
+
+.code-block div :not(pre) > code {
+  white-space: normal !important;
+  padding: 24px !important;
+}
+
+.code-block div pre {
+  overflow: auto !important;
+  position: relative !important;
+  margin: 0.5em 0 !important;
+  padding: 0 24px !important;
+  border-radius: 4px !important;
+}
+
+.code-block div .language-css > code,
+.code-block div .language-sass > code,
+.code-block div .language-scss > code {
+  color: #fd9170 !important;
+}
+
+.code-block div .namespace {
+  opacity: 0.7 !important;
+}
+
+.code-block div .token.atrule {
+  color: #c792ea !important;
+}
+
+.code-block div .token.attr-name {
+  color: #ffcb6b !important;
+}
+
+.code-block div .token.attr-value {
+  color: #a5e844 !important;
+}
+
+.code-block div .token.attribute {
+  color: #a5e844 !important;
+}
+
+.code-block div .token.boolean {
+  color: #c792ea !important;
+}
+
+.code-block div .token.builtin {
+  color: #ffcb6b !important;
+}
+
+.code-block div .token.cdata {
+  color: #80cbc4 !important;
+}
+
+.code-block div .token.char {
+  color: #80cbc4 !important;
+}
+
+.code-block div .token.class {
+  color: #ffcb6b !important;
+}
+
+.code-block div .token.class-name {
+  color: #f2ff00 !important;
+}
+
+.code-block div .token.comment {
+  color: #616161 !important;
+}
+
+.code-block div .token.constant {
+  color: #c792ea !important;
+}
+
+.code-block div .token.deleted {
+  color: #ff6666 !important;
+}
+
+.code-block div .token.doctype {
+  color: #616161 !important;
+}
+
+.code-block div .token.entity {
+  color: #ff6666;
+}
+
+.code-block div .token.function {
+  color: #c792ea !important;
+}
+
+.code-block div .token.hexcode {
+  color: #f2ff00 !important;
+}
+
+.code-block div .token.id {
+  color: #c792ea !important;
+  font-weight: bold !important;
+}
+
+.code-block div .token.important {
+  color: #c792ea !important;
+  font-weight: bold !important;
+}
+
+.code-block div .token.inserted {
+  color: #80cbc4 !important;
+}
+
+.code-block div .token.keyword {
+  color: #c792ea !important;
+}
+
+.code-block div .token.number {
+  color: #fd9170 !important;
+}
+
+.code-block div .token.operator {
+  color: #89ddff !important;
+}
+
+.code-block div .token.prolog {
+  color: #616161 !important;
+}
+
+.code-block div .token.property {
+  color: #80cbc4 !important;
+}
+
+.code-block div .token.pseudo-class {
+  color: #a5e844 !important;
+}
+
+.code-block div .token.pseudo-element {
+  color: #a5e844 !important;
+}
+
+.code-block div .token.punctuation {
+  color: #89ddff !important;
+}
+
+.code-block div .token.regex {
+  color: #f2ff00 !important;
+}
+
+.code-block div .token.selector {
+  color: #ff6666 !important;
+}
+
+.code-block div .token.string {
+  color: #a5e844 !important;
+}
+
+.code-block div .token.symbol {
+  color: #c792ea !important;
+}
+
+.code-block div .token.tag {
+  color: #ff6666;
+}
+
+.code-block div .token.unit {
+  color: #fd9170 !important;
+}
+
+.code-block div .token.url {
+  color: #ff6666 !important;
+}
+
+.code-block div .token.variable {
+  color: #ff6666 !important;
+}
+/*# sourceMappingURL=theme.css.map */

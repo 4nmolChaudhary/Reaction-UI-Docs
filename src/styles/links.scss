@@ -1,0 +1,20 @@
+@import "./variables";
+
+@mixin resetLinks {
+  display: block;
+  text-decoration: none;
+  color: $primaryColor;
+}
+
+.main-class {
+  @include resetLinks();
+  font-family: "Gilroy-Extrabold";
+  .type {
+    @include resetLinks();
+    margin-left: 15px;
+    .sub-types {
+      @include resetLinks();
+      margin-left: 30px;
+    }
+  }
+}

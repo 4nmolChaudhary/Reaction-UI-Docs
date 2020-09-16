@@ -1,8 +1,45 @@
-@import './variables';
-@mixin displayFlex($direction,$justify,$align) {
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction;
+@import "./variables";
+@mixin displayFlex($direction, $justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
 }
-
+@mixin resetLinks {
+  display: block;
+  text-decoration: none;
+  color: $primaryColor;
+  margin: 5px 0;
+}
+@mixin titleStyle {
+  h1 {
+    font-size: 32px;
+    font-family: "Gilroy-Extrabold";
+    color: $primaryColor;
+  }
+  hr {
+    background: $pinkTint;
+    height: 10px;
+    width: 35%;
+    border: none;
+    outline: none;
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+}
+@mixin table {
+  table {
+    width: 100%;
+    margin-bottom: 55px;
+    th {
+      font-family: "Gilroy-Extrabold";
+      text-align: left;
+      padding: 10px 0;
+    }
+    tr {
+      td {
+        padding: 8px 0;
+      }
+    }
+  }
+}

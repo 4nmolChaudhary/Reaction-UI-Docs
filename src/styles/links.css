@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=links.css.map */
+.main-class {
+  display: block;
+  text-decoration: none;
+  color: #3c122c;
+  font-family: "Gilroy-Extrabold";
+}
+
+.main-class .type {
+  display: block;
+  text-decoration: none;
+  color: #3c122c;
+  margin-left: 15px;
+}
+
+.main-class .type .sub-types {
+  display: block;
+  text-decoration: none;
+  color: #3c122c;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=links.css.map */

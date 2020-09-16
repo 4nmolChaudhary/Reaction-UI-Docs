@@ -3,6 +3,10 @@ import Header from "../components/Header";
 import Container from "../components/container";
 import "../styles/docs.css";
 import Links from "../components/Links";
+import ButtonDocs from "../components/ButtonDocs";
+import Started from "../components/Started";
+import "../styles/theme.css";
+import AvatarDocs from "../components/AvatarDocs";
 
 function GettingStartedPage() {
   return (
@@ -12,7 +16,11 @@ function GettingStartedPage() {
         <div className="navigation-section">
           <Links />
         </div>
-        <div className="docs-section"></div>
+        <div className="docs-section">
+          <Started />
+          <AvatarDocs />
+          <ButtonDocs />
+        </div>
       </main>
     </Container>
   );

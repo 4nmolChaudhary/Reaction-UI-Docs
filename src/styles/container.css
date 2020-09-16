@@ -6,6 +6,10 @@
   font-family: "Gilroy-Light";
   src: url("../fonts/Gilroy-Light.ttf");
 }
+@font-face {
+  font-family: "Ligconsolata";
+  src: url("../fonts/Ligconsolata-Regular.ttf");
+}
 .container {
   margin: 0;
   padding: 0;
