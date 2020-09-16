@@ -1,0 +1,17 @@
+@import "./mixins";
+@import "./variables";
+
+.main {
+  @include displayFlex(row, center, center);
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  .navigation-section {
+    width: 30%;
+    height: 100%;
+  }
+  .docs-section {
+    width: 70%;
+    height: 100%;
+  }
+}

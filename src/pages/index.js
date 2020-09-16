@@ -1,18 +1,32 @@
-import React from "react"
-import { PrimaryButton } from "reaction-ui"
-import Container from "../components/container"
+import { Link } from "gatsby";
+import React from "react";
+import { PrimaryButton, Font, Stack } from "reaction-ui";
+import Container from "../components/container";
+import Logo from "../components/Logo";
 
 const IndexPage = () => (
   <Container>
-    <h1> Hi people </h1>
-    <p>
-      Welcome to your new Gatsby site. sdsdsjghsjgfhsgf sfhsjfgsjfhsgf
-      fksjhfjshfkjshfkjshf fksjfhsfk jshfjkshfjks fskfhskjfhskhfjkshf
-    </p>
-    <p> Now go build something great. </p>
-    <PrimaryButton shadow borderRadius={4}>Hello World    </PrimaryButton>
-    <PrimaryButton shadow borderRadius={4}>      hello World    </PrimaryButton>
+    <Stack direction="column" gap={10}>
+      <Font fontSize={32} fontFamily="Gilroy-Extrabold">
+        <span role="img" aria-label="emoji">
+          🤜
+        </span>
+        Hi people
+        <span role="img" aria-label="emoji">
+          🤛
+        </span>
+      </Font>
+      <Font fontWeight={800} fontSize={20} textAlign="center">
+        Reaction UI comes with a set of components built with styled-components <br /> that are accessible, responsive and customisable.
+      </Font>
+      <Logo width={600} />
+      <Link to="/getting-started" className="link">
+        <PrimaryButton shadow borderRadius={4} bgColor="#3c122c">
+          Getting Started
+        </PrimaryButton>
+      </Link>
+    </Stack>
   </Container>
-)
+);
 
-export default IndexPage
+export default IndexPage;

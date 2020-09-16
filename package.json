@@ -19,9 +19,7 @@
     "react-helmet": "^6.1.0",
     "reaction-ui": "^1.0.1"
   },
-  "devDependencies": {
-    "prettier": "2.1.1"
-  },
+  "devDependencies": {},
   "keywords": [
     "gatsby"
   ],
