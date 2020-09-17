@@ -11,6 +11,7 @@
     height: 100%;
     padding-top: 10%;
     .link-div {
+      position: fixed;
       @include displayFlex(column, center, flex-start);
       .main-class {
         @include resetLinks();
@@ -39,30 +40,11 @@
       h3 {
         margin: 15px 0;
       }
-      .install {
-        color: #fff;
-        background: #282c34;
-        font-family: "Ligconsolata";
-        font-size: 17px;
-        font-weight: 400;
-        padding: 24px;
-        border-radius: 4px;
-        margin-bottom: 100px;
-      }
     }
     #components,
-    #buttons {
+    #buttons,
+    #inputs {
       @include titleStyle();
-      .install {
-        color: #fff;
-        background: #282c34;
-        font-family: "Ligconsolata";
-        font-size: 17px;
-        font-weight: 400;
-        padding: 24px;
-        border-radius: 4px;
-        margin-bottom: 100px;
-      }
       h3 {
         font-family: "Gilroy-Extrabold";
         font-size: 26px;

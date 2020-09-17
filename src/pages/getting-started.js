@@ -7,6 +7,7 @@ import ButtonDocs from "../components/ButtonDocs";
 import Started from "../components/Started";
 import "../styles/theme.css";
 import AvatarDocs from "../components/AvatarDocs";
+import InputDocs from "../components/InputDocs";
 
 function GettingStartedPage() {
   return (
@@ -20,6 +21,7 @@ function GettingStartedPage() {
           <Started />
           <AvatarDocs />
           <ButtonDocs />
+          <InputDocs />
         </div>
       </main>
     </Container>

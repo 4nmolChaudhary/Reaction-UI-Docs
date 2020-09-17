@@ -8,13 +8,21 @@ const scope = { Avatar };
 const code = `
 <Avatar type="boy" size={120}/>
 `;
+const im = `
+import { ComponentName } from 'reaction-ui';
+`;
 
 function AvatarDocs() {
   return (
     <div id="components">
       <h1>Components</h1>
       <hr></hr>
-      <div className="install">{`import { ComponentName } from 'reaction-ui';`} </div>
+      <div className="code-block">
+        <LiveProvider code={im} disabled>
+          <LiveEditor />
+          <LivePreview />
+        </LiveProvider>
+      </div>
       <h3 id="avatar">Avatars</h3>
       <p>Avatar can be used to display a user.</p>
       <div className="code-block">

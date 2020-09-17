@@ -9,6 +9,7 @@
   padding: 15px 0;
   top: 0;
   background: #fff;
+  z-index: 10;
   nav {
     @include displayFlex(row, space-between, center);
     .link {
