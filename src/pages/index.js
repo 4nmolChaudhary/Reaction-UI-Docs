@@ -3,9 +3,14 @@ import React from "react";
 import { PrimaryButton, Font, Stack } from "reaction-ui";
 import Container from "../components/container";
 import Logo from "../components/Logo";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => (
   <Container>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Reaction UI</title>
+    </Helmet>
     <Stack direction="column" gap={10}>
       <Font fontSize={32} fontFamily="Gilroy-Extrabold">
         <span role="img" aria-label="emoji">

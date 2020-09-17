@@ -97,7 +97,9 @@
 
 .main .docs-section #components h1,
 .main .docs-section #buttons h1,
-.main .docs-section #inputs h1 {
+.main .docs-section #inputs h1,
+.main .docs-section #layouts h1,
+.main .docs-section #fonts h1 {
   font-size: 32px;
   font-family: "Gilroy-Extrabold";
   color: #3c122c;
@@ -105,7 +107,9 @@
 
 .main .docs-section #components hr,
 .main .docs-section #buttons hr,
-.main .docs-section #inputs hr {
+.main .docs-section #inputs hr,
+.main .docs-section #layouts hr,
+.main .docs-section #fonts hr {
   background: #d789b9;
   height: 10px;
   width: 35%;
@@ -115,28 +119,56 @@
   margin-bottom: 25px;
 }
 
+.main .docs-section #components .box,
+.main .docs-section #buttons .box,
+.main .docs-section #inputs .box,
+.main .docs-section #layouts .box,
+.main .docs-section #fonts .box {
+  width: 100px;
+  height: 100px;
+  background: #f6e06e;
+}
+
+.main .docs-section #components .slab,
+.main .docs-section #buttons .slab,
+.main .docs-section #inputs .slab,
+.main .docs-section #layouts .slab,
+.main .docs-section #fonts .slab {
+  width: 100%;
+  height: 60px;
+  background: #d789b9;
+}
+
 .main .docs-section #components h3,
 .main .docs-section #buttons h3,
-.main .docs-section #inputs h3 {
+.main .docs-section #inputs h3,
+.main .docs-section #layouts h3,
+.main .docs-section #fonts h3 {
   font-family: "Gilroy-Extrabold";
   font-size: 26px;
 }
 
 .main .docs-section #components p,
 .main .docs-section #buttons p,
-.main .docs-section #inputs p {
+.main .docs-section #inputs p,
+.main .docs-section #layouts p,
+.main .docs-section #fonts p {
   margin-bottom: 35px;
 }
 
 .main .docs-section #components .props-table,
 .main .docs-section #buttons .props-table,
-.main .docs-section #inputs .props-table {
+.main .docs-section #inputs .props-table,
+.main .docs-section #layouts .props-table,
+.main .docs-section #fonts .props-table {
   margin-top: 30px;
 }
 
 .main .docs-section #components .props-table h1,
 .main .docs-section #buttons .props-table h1,
-.main .docs-section #inputs .props-table h1 {
+.main .docs-section #inputs .props-table h1,
+.main .docs-section #layouts .props-table h1,
+.main .docs-section #fonts .props-table h1 {
   font-family: "Gilroy-Light";
   font-weight: 800;
   font-size: 24px;
@@ -144,14 +176,18 @@
 
 .main .docs-section #components .props-table table,
 .main .docs-section #buttons .props-table table,
-.main .docs-section #inputs .props-table table {
+.main .docs-section #inputs .props-table table,
+.main .docs-section #layouts .props-table table,
+.main .docs-section #fonts .props-table table {
   width: 100%;
   margin-bottom: 55px;
 }
 
 .main .docs-section #components .props-table table th,
 .main .docs-section #buttons .props-table table th,
-.main .docs-section #inputs .props-table table th {
+.main .docs-section #inputs .props-table table th,
+.main .docs-section #layouts .props-table table th,
+.main .docs-section #fonts .props-table table th {
   font-family: "Gilroy-Extrabold";
   text-align: left;
   padding: 10px 0;
@@ -159,7 +195,9 @@
 
 .main .docs-section #components .props-table table tr td,
 .main .docs-section #buttons .props-table table tr td,
-.main .docs-section #inputs .props-table table tr td {
+.main .docs-section #inputs .props-table table tr td,
+.main .docs-section #layouts .props-table table tr td,
+.main .docs-section #fonts .props-table table tr td {
   padding: 8px 0;
 }
 /*# sourceMappingURL=docs.css.map */

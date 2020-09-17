@@ -43,8 +43,20 @@
     }
     #components,
     #buttons,
-    #inputs {
+    #inputs,
+    #layouts,
+    #fonts {
       @include titleStyle();
+      .box {
+        width: 100px;
+        height: 100px;
+        background: $yellowTint;
+      }
+      .slab {
+        width: 100%;
+        height: 60px;
+        background: $pinkTint;
+      }
       h3 {
         font-family: "Gilroy-Extrabold";
         font-size: 26px;
